@@ -7,7 +7,7 @@ namespace StringGenerator
     {
         private const string chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         
-        public static string Generate(int seed, int length = 16)
+        public string Generate(int seed, int length = 16)
         {
             Random rng = new Random(seed);
 

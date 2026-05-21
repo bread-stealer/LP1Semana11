@@ -4,12 +4,12 @@ namespace StringGenerator
 {
     public class View
     {
-        private void ShowResult(string result)
+        public void ShowResult(string result)
         {
             Console.WriteLine(result);
         }
 
-        private void ShowError()
+        public void ShowError()
         {
             Console.WriteLine("Nope");
         }
